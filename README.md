@@ -17,6 +17,8 @@ Here's a visualization of the architecture of our application
 
 <img width="400px" src="https://github.com/mayankshah1607/federated-learning-with-grpc-docker/blob/master/static/architecture.jpg">
 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQyaWWWq0qNgz03eU4AgMLO2sQ_-fZGnhI1XOwdb8UYGKrStT6"/>
+
 ## Setup
 Make sure you have python3, docker and docker-compose setup on your machine.
 
