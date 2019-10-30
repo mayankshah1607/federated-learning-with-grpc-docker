@@ -1,0 +1,16 @@
+// python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. functions.proto
+syntax = "proto3";
+
+message Model {
+    string model = 1;
+}
+
+message Empty {
+    int32 value = 1;
+}
+
+service FederatedApp{
+    rpc GenerateData(Empty) returns (Empty) {}
+    rpc Train(Empty) returns (Model) {} 
+    rpc SendModel(Model) returns (Empty) {}
+}
