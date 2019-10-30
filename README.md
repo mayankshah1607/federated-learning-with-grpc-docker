@@ -1,4 +1,4 @@
-# Federated Learning - gRPC and Docker
+# Federated Learning with gRPC and Docker
 A simple application that uses docker and gRPC to demonstrate fedrated learning
 
 ## What is Federated Learning?
